@@ -1,5 +1,6 @@
 package com.example.SpringBootRestAPI.dao;
 
+import java.util.List;
 import java.util.UUID;
 
 import com.example.SpringBootRestAPI.model.Person;
@@ -12,4 +13,6 @@ public interface PersonDao {
         UUID id = UUID.randomUUID();
         return insertPerson(id, person);
     }
+
+    List<Person> selectAllPeople();
 }
