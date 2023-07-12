@@ -1,11 +1,11 @@
-package service;
+package com.example.SpringBootRestAPI.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import dao.PersonDao;
-import model.Person;
+import com.example.SpringBootRestAPI.dao.PersonDao;
+import com.example.SpringBootRestAPI.model.Person;
 
 @Service
 public class PersonService {

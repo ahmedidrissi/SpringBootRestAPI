@@ -1,4 +1,4 @@
-package dao;
+package com.example.SpringBootRestAPI.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.UUID;
 
 import org.springframework.stereotype.Repository;
 
-import model.Person;
+import com.example.SpringBootRestAPI.model.Person;
 
 @Repository("fakeDao")
 public class FakePersonDataAccessService implements PersonDao {

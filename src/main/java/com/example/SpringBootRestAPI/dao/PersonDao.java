@@ -1,7 +1,8 @@
-package dao;
+package com.example.SpringBootRestAPI.dao;
 
 import java.util.UUID;
-import model.Person;
+
+import com.example.SpringBootRestAPI.model.Person;
 
 public interface PersonDao {
     

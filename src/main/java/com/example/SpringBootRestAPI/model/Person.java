@@ -1,4 +1,4 @@
-package model;
+package com.example.SpringBootRestAPI.model;
 
 import java.util.UUID;
 
